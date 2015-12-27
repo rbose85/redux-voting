@@ -1,0 +1,17 @@
+{
+  "name": "redux-voting-server",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbose85/redux-voting-server"
+  },
+  "description": "organizing live votes gatherings of people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rajiv Bose <rbose85@users.noreply.github.com>",
+  "license": "MIT"
+}

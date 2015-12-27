@@ -9,9 +9,26 @@
   "description": "organizing live votes gatherings of people",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha --compilers js:babel-core/register --require test/test_helper.js --recursive",
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
   "author": "Rajiv Bose <rbose85@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.26",
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^3.4.1",
+    "chai-immutable": "^1.5.3",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "immutable": "^3.7.6"
+  }
 }

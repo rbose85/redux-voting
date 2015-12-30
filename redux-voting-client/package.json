@@ -1,0 +1,21 @@
+{
+  "name": "redux-voting-client",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbose85/redux-voting"
+  },
+  "description": "organizing live votes gatherings of people",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.@(js|jsx)'",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "Rajiv Bose <rbose85@users.noreply.github.com>",
+  "license": "MIT",
+  "babel": {
+    "presets": ["es2015", "react"]
+  }
+}
